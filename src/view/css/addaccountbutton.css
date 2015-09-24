@@ -1,0 +1,12 @@
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #B3E5FC;
+    -fx-font-weight: bold;
+	-fx-graphic: url('../img/ic_add_blue_24dp_1x.png');
+}
+
+.button:hover {
+-fx-graphic: url('../img/ic_add_white_24dp_1x.png');
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+}

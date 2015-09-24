@@ -1,0 +1,27 @@
+.menu-button:openvertically {
+	-fx-background-color: #03A9F4;
+	
+}
+
+.menu-button:openvertically:hover {
+	-fx-background-color: #0288D1;
+	-fx-text-fill: #FFFFFF;
+}
+
+.menu-button .arrow {
+	-fx-background-color: #B3E5FC;
+}
+
+.menu-button:hover .arrow {
+	-fx-background-color: #FFFFFF;
+}
+
+.menu-button:openvertically .label .text {
+	-fx-fill: #B3E5FC;
+	-fx-font-weight: bold;
+}
+
+.menu-button:openvertically:hover .label .text {
+	-fx-fill: #FFFFFF;
+	-fx-font-weight: bold;
+}

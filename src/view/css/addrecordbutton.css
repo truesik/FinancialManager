@@ -1,0 +1,11 @@
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #B3E5FC;
+    -fx-font-weight: bold;
+	-fx-graphic: url('../img/ic_add_black_24dp_1x.png');
+}
+
+.button:hover {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,115 @@
+.table-view {
+    	-fx-table-header-border-color: white;
+    	-fx-table-cell-border-color: transparent;    
+}
+
+.table-view .table-row-cell:filled {
+	-fx-border-color: #B6B6B6;
+  	-fx-border-width: 0 0 1 0;
+}
+
+.table-view:row-selection > .virtual-flow > .clipped-container > .sheet > .table-row-cell:filled:hover { 
+    	-fx-background-color: #B6B6B6;
+}
+
+.table-view .column-header {
+    	-fx-background-color: #FFFFFF;
+	-fx-font-weight: normal;
+	-fx-border-width: 0 0 1 0;
+	-fx-border-color: #B6B6B6;
+}
+
+.table-row-cell:even {
+    	-fx-background-color: #FFFFFF;	
+}
+
+.table-row-cell:odd {
+	-fx-background-color: #FFFFFF;	
+}
+
+.table-column {
+	-fx-alignment: center;
+}
+
+.table-view:row-selection:constrained-resize .column-header-background .filler {
+	-fx-background-color: white;
+	-fx-border-color: transparent;
+}
+
+/* The main scrollbar **track** CSS class  */
+.table-view .scroll-bar:horizontal .track,
+
+.table-view .scroll-bar:vertical .track {
+
+	-fx-background-color: white;
+
+	-fx-border-color:transparent;
+
+	-fx-background-radius: 0em;
+
+	-fx-border-radius:2em;
+
+}
+
+
+
+/* The increment and decrement button CSS class of scrollbar */
+
+.table-view .scroll-bar:horizontal .increment-button,
+
+.table-view .scroll-bar:horizontal .decrement-button {
+
+    	-fx-background-color:transparent;
+
+	-fx-background-radius: 0em;
+
+	-fx-padding:0 0 10 0;
+
+
+}
+
+
+/* The increment and decrement button CSS class of scrollbar */
+
+
+.table-view .scroll-bar:vertical .increment-button,
+
+.table-view .scroll-bar:vertical .decrement-button {
+
+
+    	-fx-background-color:transparent;
+
+	-fx-background-radius: 0em;
+
+	-fx-padding:0 10 0 0;
+
+
+}
+
+
+.table-view .scroll-bar .increment-arrow,
+
+.table-view .scroll-bar .decrement-arrow
+ {
+
+	-fx-shape: " ";
+	
+-fx-padding:0;
+
+}
+
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+
+.table-view .scroll-bar:horizontal .thumb,
+
+.table-view .scroll-bar:vertical .thumb {
+
+    	-fx-background-color: #B6B6B6;
+
+	-fx-background-insets: 2, 0, 0;
+
+	-fx-background-radius: 2em;
+
+
+}

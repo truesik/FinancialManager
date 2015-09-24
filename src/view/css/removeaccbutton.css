@@ -1,0 +1,13 @@
+.button {
+	-fx-background-color: transparent;
+  	-fx-graphic: url('../img/ic_cancel_white.png');
+	-fx-alignment: center;
+  
+}
+
+.button:selected {
+	-fx-background-color: transparent;
+   	-fx-graphic: url('../img/ic_cancel_white.png');
+	-fx-alignment: center;   
+}
+

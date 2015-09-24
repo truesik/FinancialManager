@@ -1,0 +1,34 @@
+.list-view:hover .list-cell:filled:hover {
+	-fx-background-color: #0288D1;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-radius: 0 5 5 0;
+	
+}
+
+.list-view {
+	-fx-background-color: #03A9F4;
+	-fx-text-fill: #B3E5FC;
+}
+
+.list-cell:even {
+    -fx-background-color: #03A9F4;
+	-fx-text-fill: #B3E5FC;
+}
+
+.list-cell:odd {
+	-fx-background-color: #03A9F4;
+	-fx-text-fill: #B3E5FC;
+}
+
+.list-cell:selected {
+    -fx-background-color: #FF5722;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+	-fx-background-radius: 0 5 5 0;
+}
+
+.list-view:hover .list-cell:selected:hover {
+    -fx-background-color: #FF5722;
+	-fx-background-radius: 0 5 5 0;
+	
+}

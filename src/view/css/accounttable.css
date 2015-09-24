@@ -1,0 +1,141 @@
+.table-view {
+    	-fx-table-header-border-color: transparent;
+    	-fx-table-cell-border-color: transparent;
+	-fx-text-fill: #B3E5FC;
+    
+}
+
+.column-header-background {
+	visibility: hidden;
+	-fx-padding: -1em; 
+}
+
+.table-view:row-selection .table-row-cell:filled:hover { 
+    	-fx-background-color: #0288D1;
+    	-fx-text-fill: #FFFFFF;
+    	-fx-background-radius: 0 5 5 0;
+	-fx-background-insets: 0 10 0 0;
+}
+
+.table-view:row-selection .table-row-cell:hover:selected {
+	-fx-background-color: #FF5722;
+	-fx-background-radius: 0 5 5 0;
+	-fx-background-insets: 0 10 0 0;
+}
+
+.table-row-cell:even {
+    	-fx-background-color: #03A9F4;
+	
+}
+
+.table-row-cell:odd {
+	-fx-background-color: #03A9F4;
+	
+}
+
+.table-row-cell:selected {
+	-fx-table-cell-border-color: transparent;
+	-fx-background-color: #FF5722;
+    	-fx-font-weight: bold;
+	-fx-background-radius: 0 5 5 0;
+	-fx-background-insets: 0 10 0 0;
+
+}
+
+.table-row-cell:even .text{
+	-fx-fill: #B3E5FC;
+}
+
+.table-row-cell:odd .text{
+	-fx-fill: #B3E5FC;
+}
+
+.table-row-cell:selected .text {
+	-fx-fill: #FFFFFF;
+}
+
+.table-view:row-selection .table-row-cell:filled:hover .text {
+	-fx-fill: #FFFFFF;
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical {
+	-fx-background-color: transparent;
+}
+
+/* The main scrollbar **track** CSS class  */
+.table-view .scroll-bar:horizontal .track,
+
+.table-view .scroll-bar:vertical .track {
+
+	-fx-background-color:transparent;
+
+	-fx-border-color:transparent;
+
+	-fx-background-radius: 0em;
+
+	-fx-border-radius:2em;
+
+}
+
+
+
+/* The increment and decrement button CSS class of scrollbar */
+
+.table-view .scroll-bar:horizontal .increment-button,
+
+.table-view .scroll-bar:horizontal .decrement-button {
+
+    	-fx-background-color:transparent;
+
+	-fx-background-radius: 0em;
+
+	-fx-padding:0 0 10 0;
+
+
+}
+
+
+/* The increment and decrement button CSS class of scrollbar */
+
+
+.table-view .scroll-bar:vertical .increment-button,
+
+.table-view .scroll-bar:vertical .decrement-button {
+
+
+    	-fx-background-color:transparent;
+
+	-fx-background-radius: 0em;
+
+	-fx-padding:0 10 0 0;
+
+
+}
+
+
+.table-view .scroll-bar .increment-arrow,
+
+.table-view .scroll-bar .decrement-arrow
+ {
+
+	-fx-shape: " ";
+	
+-fx-padding:0;
+
+}
+
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+
+.table-view .scroll-bar:horizontal .thumb,
+
+.table-view .scroll-bar:vertical .thumb {
+
+    	-fx-background-color: #B3E5FC;
+
+	-fx-background-insets: 2, 0, 0;
+
+	-fx-background-radius: 2em;
+
+
+}
